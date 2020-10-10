@@ -24,11 +24,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/second-build.loader.js";
+      var loaderUrl = buildUrl + "/third-build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/second-build.data",
-        frameworkUrl: buildUrl + "/second-build.framework.js",
-        codeUrl: buildUrl + "/second-build.wasm",
+        dataUrl: buildUrl + "/third-build.data",
+        frameworkUrl: buildUrl + "/third-build.framework.js",
+        codeUrl: buildUrl + "/third-build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ARG App",
@@ -45,7 +45,7 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "1200px";
+        canvas.style.width = "1080px";
         canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
